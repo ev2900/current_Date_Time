@@ -1,5 +1,9 @@
-# current_Date_Time
+# current Date Time
 
-Calling the route http://13.90.101.105:8080/time_now will return the unformated datetime. The unformated date time is the number of millisecond elapsed since January 1, 1970 00:00:00 UTC.
+Simple RESTful API returning the current date time in both an unformated and formated format. Depending on which endpoint you call. The unformated endpoint returns the number of millisecond elapsed since January 1, 1970 00:00:00 UTC.
 
-Calling the route http://13.90.101.105:8080/time_now_formated will return the formated datetime. For example {"current": "2017/11/05 20:05:03"} 
+Preview
+
+[UNFORMATED](http://13.92.254.20:9001/time_now)
+
+[FORMATED](http://13.92.254.20:9001/time_now_formated)

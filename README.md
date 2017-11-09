@@ -4,6 +4,4 @@ Simple RESTful API returning the current date time in both an unformated and for
 
 Preview
 
-[UNFORMATED](http://13.92.254.20:9001/time_now)
-
-[FORMATED](http://13.92.254.20:9001/time_now_formated)
+[UNFORMATED](http://13.92.254.20:9001/time_now) | [FORMATED](http://13.92.254.20:9001/time_now_formated)

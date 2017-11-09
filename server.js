@@ -9,16 +9,16 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // Port
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 9001;
 
 // Route 
 app.get('/time_now', function(req, res) {
-    res.json({data: Date.now()});
+    res.json({date: Date.now()});
 });
 
 app.get('/time_now_formated', function(req, res) {
     var now = new Date();
-    res.send('{"current": "' + date.format(now, 'YYYY/MM/DD HH:mm:ss') + '"}');
+    res.json({date: date.format(now,'YYYY/MM/DD HH:mm:ss')});
 });
 
 // Server
